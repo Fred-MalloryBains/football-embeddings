@@ -17,5 +17,9 @@ PCA scaler to 32, doc vector = 32, window = 10, opp weightings = 0.9
 <img width="629" alt="image" src="https://github.com/user-attachments/assets/39808882-28e0-4bb5-9e90-43c4e43fe07d" />
 <img width="581" alt="image" src="https://github.com/user-attachments/assets/1237f07f-0078-4027-8c83-96e843c986a8" />
 
+
+<img width="595" alt="image" src="https://github.com/user-attachments/assets/47de7704-fdc6-4af6-9bea-7ba79a5eb9c3" />
+labeled embedded space
+
 opp weightings = 0.5
 
