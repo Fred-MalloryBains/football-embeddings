@@ -31,7 +31,7 @@ This document outlines explains the structure and setup for this football embedd
 - Further investigation could be done by, comparing different seasons, managers etc,
 - commparing cosine similarity and euclidean distance, just the document and just the statistics
 
-[📄 View Findings](./findings.md)
+[📄 View Findings](./FINDINGS.md)
 
 
 
