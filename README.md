@@ -1,6 +1,6 @@
 # football-embeddings
 
-![image](https://github.com/user-attachments/assets/965ca106-c4f5-4550-81d2-d84b124c6f3e)
+<img width="587" alt="image" src="https://github.com/user-attachments/assets/965ca106-c4f5-4550-81d2-d84b124c6f3e" />
 standard scaler, window size = 15, min word count = 5, vector size = 200
 
 
@@ -19,7 +19,5 @@ PCA scaler to 32, doc vector = 32, window = 10, opp weightings = 0.9
 
 
 <img width="595" alt="image" src="https://github.com/user-attachments/assets/47de7704-fdc6-4af6-9bea-7ba79a5eb9c3" />
-labeled embedded space
-
-opp weightings = 0.5
+labeled embedded space, opp weightings = 0.5
 
