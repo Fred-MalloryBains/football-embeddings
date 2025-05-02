@@ -1,68 +1,36 @@
 # ⚽ Football Embeddings Experiments
 
-This document outlines different configurations and visualizations of document embeddings for football match reports.
+This document outlines explains the structure and setup for this football embedding project 
 
 ---
 
-## 1. Baseline
+## 1. Setup
 
-- **Scaler**: StandardScaler  
-- **Window Size**: 15  
-- **Min Word Count**: 5  
-- **Vector Size**: 200  
+- **Venv**: python -m venv venv to create virrtual environment
+- **Install Requirements**: source venv/bin/activate;pip install -r requirements.txt
+- **Jupyter**: jupyter lab  
+- **Select file**: open match_reports.ipynb
 
-![Baseline Embedding](https://github.com/user-attachments/assets/965ca106-c4f5-4550-81d2-d84b124c6f3e)
-
----
-
-## 2. PCA Scaling Applied
-
-- **Scaler**: PCA  
-- **Window Size**: 10  
-- **Min Word Count**: 10  
-- **Vector Size**: 72  
-
-![PCA Scaling - 72D](https://github.com/user-attachments/assets/72711125-0481-44ea-9089-506996d70ef6)
 
 ---
 
-## 3. Doc Vector Compression
+## 2. File Structure
 
-- **Scaler**: PCA to 72D  
-- **Doc Vector**: 32  
+- **Embedding Files**: /main   
+- **Data mining files**: /web_scraping
+- **Datasets**: /web_scraping
+- **Combined Dataset**: match_r_s.csv
 
-![PCA to 72D, DocVec 32](https://github.com/user-attachments/assets/ebd4c69d-efc2-44d0-8655-7c9673ce90cf)
-
----
-
-## 4. Opponent Weighting = 0.9
-
-- **Scaler**: PCA to 32D  
-- **Doc Vector**: 32  
-- **Window Size**: 10  
-- **Opponent Weightings**: 0.9  
-
-![Opp Weighting 0.9 - A](https://github.com/user-attachments/assets/114b2e6d-fb2d-4d16-8dbe-be25fa38931b)  
-![Opp Weighting 0.9 - B](https://github.com/user-attachments/assets/78bd575d-fd57-46c8-a240-27f2e025e211)
 
 ---
 
-## 5. Opponent Weighting = 0.5
+## 3. How it works
 
-- **Doc Vector**: 32  
-- **Opponent Weightings**: 0.5  
+- Using the files you are able to create team embeddings using match report and statistical data
+- This data can be explored through the various visulisation methods in the match_report jupyter notebook,
+- Further investigation could be done by, comparing different seasons, managers etc,
+- commparing cosine similarity and euclidean distance, just the document and just the statistics
 
-![Opp Weighting 0.5 - A](https://github.com/user-attachments/assets/39808882-28e0-4bb5-9e90-43c4e43fe07d)  
-![Opp Weighting 0.5 - B](https://github.com/user-attachments/assets/1237f07f-0078-4027-8c83-96e843c986a8)
 
----
 
-## 6. Labeled Embedded Space
-
-- **Opponent Weightings**: 0.5  
-- **Visualization**: Clustered and labeled team spaces  
-
-![Labeled Embedded Space](https://github.com/user-attachments/assets/47de7704-fdc6-4af6-9bea-7ba79a5eb9c3)
-
----
 
