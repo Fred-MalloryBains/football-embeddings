@@ -1,6 +1,19 @@
 # ⚽ Football Embeddings Experiments
 
-This document outlines explains the structure and setup for this football embedding project 
+This project was part of my University Coursework for Data Mining, where we had to collect, process and report on any 
+large set of data. I chose to combine Premier League football match statistics and match reports to analyse sentiment and 
+data collected and compare across the different teams of league.
+
+I made use of web scraping techniques using selenium to extract match statistics from sofascore as well as match report/ summaries from 
+the premier league website. I implemented techniques such as interaction, politeness windows and ____ before saving all the data into csv 
+formatting. 
+
+The data was then processed and cleaned using numpy and pandas so that it could be analysed. To implement analysis I used doc2Vec embeddings to 
+create unique vectors for each match followed by each team for visualisation and comparison using PCA.
+
+You can see my results below: 
+
+[📄 View Findings](./FINDINGS.md)
 
 ---
 
@@ -31,7 +44,6 @@ This document outlines explains the structure and setup for this football embedd
 - Further investigation could be done by, comparing different seasons, managers etc,
 - commparing cosine similarity and euclidean distance, just the document and just the statistics
 
-[📄 View Findings](./FINDINGS.md)
 
 
 
